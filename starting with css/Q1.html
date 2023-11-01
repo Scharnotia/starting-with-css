@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starting with css</title>
+    <style>
+        .internal {
+            background-color: red;
+        }
+        .inline{
+            background-color: aqua;
+        }
+    </style>
+    <link rel="stylesheet" href="extenal.css">
+</head>
+
+<body>
+    <!-- THIS IS INTERNAL CSS -->
+    <div class="internal">
+        <H1>INTERNAL CSS.</H1>
+    </div>
+    <!-- THIS IS EXTERNAL CSS -->
+    <div class="external">
+        <H1>EXTERNAL CSS.</H1>
+    </div>
+    <!-- THIS IS INLINE CSS -->
+    <div class="inline" style="background-color: blue;">
+        <h1>INLINE CSS.</h1>
+    </div>
+    <!-- IF I TARGET SAME ELEMENT WITH INLINE, INTERNAL AND EXTERNAL THEN BROWSER GIVES PREFERENCE TO THE INLINE. -->
+</body>
+
+</html>
